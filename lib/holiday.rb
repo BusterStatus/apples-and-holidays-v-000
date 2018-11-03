@@ -69,11 +69,13 @@ def all_supplies_in_holidays(holiday_hash)
         element.capitalize!
       end
       joined_array = split_array.join(" ")
-      supplies_array = supplies
+      
+      supplies_array = supplies.split
       supplies_array.each do |supply|
         supply.capitalize!
       end
-      puts "  #{joined_array}: #{supplies.join(", ")}"
+      joined_supplied = supplies.join
+      puts "  #{joined_array}: #{joined_supplies)}"
       supplies.each do |supply|
         puts " #{supply.to_s}"
       end
