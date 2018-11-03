@@ -69,8 +69,6 @@ def all_supplies_in_holidays(holiday_hash)
         element.capitalize!
       end
       joined_array = split_array.join(" ")
-      
-      end
       puts "  #{joined_array}: "
     end
   end
