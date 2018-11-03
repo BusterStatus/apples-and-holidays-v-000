@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
       joined_array = split_array.join(" ")
       puts " #{joined_array}:"
       supplies.each do |supply|
-        puts supply.to_s
+        puts " #{supply.to_s}""
       end
     end
   end
