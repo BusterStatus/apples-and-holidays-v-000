@@ -75,6 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
         supply_split = supply.split
         supply_split.each do |supp|
           supp.capitalize!
+        end
       end
       joined_supplies = supplies.join(", ")
       puts "  #{joined_array}: #{joined_supplies}"
