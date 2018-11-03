@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
           supp.capitalize!
         end
       end
-      puts "  #{joined_array}: #{supply_split}"
+      puts "  #{joined_array}: "
     end
   end
 end
