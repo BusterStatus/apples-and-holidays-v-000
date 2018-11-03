@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       joined_array = split_array.join(" ")
       
-      supplies_array = supplies.split
+      supplies_array = supplies
       supplies_array.each do |supply|
         supply.capitalize!
       end
